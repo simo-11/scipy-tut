@@ -32,12 +32,8 @@ C:\Users\simon\github\scipy> python -m venv venv
 PS C:\Users\simon\github\scipy> .\venv\Scripts\activate
 C:\Users\simon\github\scipy> python -m pip install -r requirements/all.txt
 (venv) PS C:\Users\simon\github\scipy> $env:PATH="$env:RTOOLS40_HOME\usr\bin;$env:RTOOLS40_HOME\ucrt64\bin;$env:PATH"
+(venv) PS C:\Users\simon\github\scipy> meson setup build --buildtype debug (untested)
 (venv) PS C:\Users\simon\github\scipy> pip install -e . --no-build-isolation
 ```
-
-## TODO
-https://github.com/todomd/todo.md
- - [ ] scipy-openblas
- - [ ] ucrt
 
 # Setup for usage
