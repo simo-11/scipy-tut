@@ -6,6 +6,17 @@ PS> choco install rtools -y --no-progress --force --version=4.0.0.20220206
   Software installed to 'C:\rtools40\'
 ```
 
+## Libraries
+Run Rools https://github.com/r-windows/docs/blob/master/rtools40.md
+```
+$ pacman -Sy
+$ pacman -Sl | grep blas
+simon@MSI MINGW64 ~
+$ pacman -S mingw-w64-x86_64-openblas
+..
+Set the environment variable OPENBLAS_NUM_THREADS to the number of threads to use.
+```
+
 # Setup venv
 Based on https://scipy.github.io/devdocs/building/index.html
  * IDE support & editable installs
@@ -19,6 +30,7 @@ C:\Users\simon\github\scipy> python -m pip install -r requirements/all.txt
 
 ## TODO
 https://github.com/todomd/todo.md
- - [ ] openblas  
+ - [ ] scipy-openblas
+ - [ ] ucrt
 
 # Setup for usage
