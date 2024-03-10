@@ -47,3 +47,11 @@ PS C:\Users\simon\github\scipy> .\venv\Scripts\activate
 (venv) PS C:\Users\simon\github\scipy> $env:PATH="$env:RTOOLS40_HOME\usr\bin;$env:RTOOLS40_HOME\ucrt64\bin;$env:PATH"
 ```
 
+## try for beam bending and torsion
+https://github.com/simo-11/gf4sm/
+https://scipy.github.io/devdocs/tutorial/integrate.html
+
+# Notes on performance
+https://scipy.github.io/devdocs/dev/roadmap.html refers to https://fluiddyn.netlify.app/transonic-vision.html from 2019.
+There are many ways to get python code run faster and suitable solution for specific case should be planned well.
+
